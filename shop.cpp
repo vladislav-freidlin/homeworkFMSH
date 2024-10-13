@@ -4,9 +4,10 @@
 #include <tuple>
 using namespace std;
 
-    // I've tried using std::for_each, but unfortunatle received an error quote "namespace std has no member for_each"
-    // I also understand that basically I could have instead of every "for" loop use std::for_each, but giving that it
+    
+    // I understand that basically I could have instead of every "for" loop use std::for_each, but giving that it
     // didn't work I resorted to using "for"
+    // I've tried using std::for_each, but unfortunatly received an error quote "namespace std has no member for_each"
     
 struct goods{
     string Name;
